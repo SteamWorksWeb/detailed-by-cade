@@ -95,10 +95,10 @@ export default function LandingPage() {
           <div className="max-w-5xl">
             
             {/* Super large headline */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1] mb-8">
-              A Flawless Finish <br />
-              <span className="flex items-center mt-2 md:mt-4">
-                <span className="w-10 md:w-16 h-1.5 bg-slate-500 shrink-0 mr-4 md:mr-6"></span>
+            <h1 className="font-extrabold tracking-tight text-white leading-[1.1] mb-8 flex flex-col items-start">
+              <span className="text-[10vw] sm:text-5xl md:text-6xl lg:text-7xl">A Flawless Finish</span>
+              <span className="flex items-center mt-2 md:mt-4 text-[6.5vw] sm:text-5xl md:text-6xl lg:text-7xl">
+                <span className="w-6 sm:w-10 md:w-16 h-1 sm:h-1.5 bg-slate-500 shrink-0 mr-3 sm:mr-4 md:mr-6"></span>
                 <span className="whitespace-nowrap">
                   Delivered{' '}
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-200">
